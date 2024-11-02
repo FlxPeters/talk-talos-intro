@@ -1,0 +1,34 @@
+:root {
+    --r-link-color: #a81326;
+    --r-link-color-dark: #8d0e1f;
+    --r-link-color-hover: #8d0e1f;
+}
+
+body.reveal-viewport {
+    background-image: url("images/breuninger-sign.svg");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: 25px 25px;
+}
+
+.author {
+    color: #666;
+    font-size: smaller;
+}
+
+.preamble {
+    color: #8d0e1f;
+}
+
+.slides {
+    width: 1200px !important;
+}
+.reveal section img {
+    border:0;
+    box-shadow: none;
+}
+
+section.inverted {
+    background: #a81326;
+    color: #fff
+}
